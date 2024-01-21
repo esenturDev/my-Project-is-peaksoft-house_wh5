@@ -1,0 +1,62 @@
+#extra-large {
+   font-size: 50px;
+}
+
+.header > h1 {
+    font-size: 100px !important;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.medium {
+    font-size: 12px;
+}
+
+.large {
+    font-size: 20px;
+}
+
+.click-btn {
+    background-color: rgb(189, 189, 13);
+    width: 100px;
+    height: 30px;
+}
+.click-btn:hover {
+    background-color:rgb(7, 73, 96);
+}
+.click-btn:active {
+    background-color:rgb(27, 206, 27);
+}
+.first-input:focus {
+    background-color:rgb(189, 189, 13);
+}
+.btn-disabled:disabled {
+    background-color:rgb(7, 73, 96);
+}
+.text:first-letter {
+    background-color: chartreuse;
+}
+.text:first-of-type {
+    background-color: cornflowerblue;
+}
+/* PSEVDOELEMENTER */
+.text::first-line {
+    background-color: #B8860B;
+}
+.text::after {
+    content: "ESENTUR";
+    background-color: #064949;
+}
+.first-input::placeholder{
+    color:rgb(189, 189, 13);
+}
+.text::before {
+    content: "JavaScript";
+    background-color: #00FFFF;
+}
+li::marker{
+    content: ':🙌:';
+    color: red;
+}
